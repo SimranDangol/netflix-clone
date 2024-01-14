@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.button {
+    background-color: rgb(229,9,20);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 2px 1px;
+    cursor: pointer;
+    width: 80px;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: transform 0.3s ease;
+  }
+  .button:hover{
+    background-color: rgba(229, 9, 20, 0.894);
+  }
+  header{
+    background-image:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url("assests/images/NP-en-20240101-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 95vh; 
+  }
+  .section-one{
+    height: 450px;
+  }
+  h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.8rem;
+    line-height: 4.5rem;
+  }
+  p{
+    font-size: 1.4rem;
+    font-weight:lighter;
+    font-family:Arial, Helvetica, sans-serif ;
+  }
+  .divider{
+    height: 0.3rem;
+    background-color:rgb(66, 62, 62);
+  }
+ .btn{
+  background-color: rgb(229,9,20);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    margin: 2px 1px;
+    cursor: pointer;
+    width: 310px;
+    height: 7.5vh;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: transform 0.3s ease;
+ }
+ .btn:hover{
+  background-color: rgba(229, 9, 20, 0.894);
+}
+.section-two{
+  background-color: black;
+}
+.img-section{
+  position: relative;
+}
+.img-section img{
+  position: relative;
+  z-index: 10;
+}
+.img-section video{
+  position: absolute;
+  right: 14%;
+  top: 95px;
+}
+.fs-2{
+  font-size: 1.7rem !important;
+}
+h2{
+  font-size: 3rem;
+  line-height: 4.5rem;
+}
+.section-three{
+  background: black;
+  height: 80vh;
+}
+.heading{
+  font-size: 3rem;
+  line-height: 4rem;
+}
+.section-four{
+  background: black;
+}
+.section-five{
+  background-color: black;
+}
+h3{
+  font-weight: bold;
+  font-size: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section-six{
+  background-color: black;
+  height:160vh;
+}
+.accordion-button{
+  background: rgb(45,45,45)!important;
+  color: rgb(255,255,255)!important;
+  font-size: 1.5rem!important;
+  font-weight: 600;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease!important;
+  
+}
+.accordion-button:hover{
+  background-color: rgb(65, 65, 65)!important;
+  transition: transform 0.3s ease !important;
+}
+.accordion-button:focus{
+ box-shadow: none!important;
+color: rgb(255,255,255)!important;
+border-bottom: 2px solid rgb(0, 0, 0)!important;
+}
+.accordion-button:after{
+  content: "+";
+  background-image: none;
+  position: absolute;
+  height: 30px;
+  font-size: 50px;
+  top: 5px;
+  right: 45px;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: none;
+  transform: none;
+  content: "\00d7";
+}
+.accordion-item{
+  background: rgb(45,45,45)!important;
+  border: none!important;
+}
+.accordion-collapse{
+  color: rgb(255,255,255)!important;
+}
+.card-body{
+  padding: 15px;
+}
+.footer{
+  background-color: black;
+}
+
+footer p,
+footer a {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+footer ul {
+  padding-left: 0;
+}
+
+footer li {
+  list-style-type: none;
+}
+
+footer select {
+  background: transparent;
+  color: #fff;
+  padding-left: 40px;
+  padding-right: 40px;
+  appearance: none;
+  border-radius: 5px;
+}
+
+footer img {
+  filter: invert();
+  top: 8px;
+  left: 12px;
+}
+
+footer .arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
+  top: 15px;
+  right: -115px;
+}
+
+
+
+
